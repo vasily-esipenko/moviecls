@@ -1,0 +1,38 @@
+data:
+  metadata_file: /mnt/raid1/ve/moviecls/moviecls/assets/movie_data_v4/movies_with_frames.json
+  frames_dir: /mnt/raid1/ve/moviecls/moviecls/assets/movie_data_v4/frames
+  output_dir: "efficientnet_b3_wod2vec"
+  test_size: 0.2
+  val_size: 0.2
+
+training:
+  batch_size: 16
+  num_epochs: 40
+  learning_rate: 0.001
+  weight_decay: 5.0e-05
+  device: "cuda"
+
+model:
+  backbone: "efficientnet_b3"  # "resnet50", "efficientnet_b0", "efficientnet_b3", "vit_b_16", "vit_l_16" 
+  embedding_dim: 300
+  image_size: 300
+  pretrained_weights: null
+  freeze_layers: "none"
+
+embeddings:
+  type: "word2vec" # "word2vec", "sbert", "fasttext", "glove"
+  model_name: "word2vec-google-news-300"
+  sbert_model_name: "paraphrase-MiniLM-L6-v2"
+  fasttext_model_path: "cc.ru.300.bin"
+  glove_model_path: "glove.6B.300d.txt"
+  cache_path: "model_output/embeddings_model.pkl"
+  embeddings_path: "model_output/text_embeddings.pkl"
+  use_cached_embeddings: false 
+
+logging:
+  use_clearml: true
+  project_name: "MovieCLS"
+  task_name: "500_efficientnet_b3_wod2vec" 
+
+evaluation:
+  precision_k: 5
