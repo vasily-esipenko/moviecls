@@ -1,0 +1,99 @@
+{
+    "13": {
+        "id": 13,
+        "title": "Форрест Гамп",
+        "original_title": "Forrest Gump",
+        "release_date": "1994-06-23",
+        "year": "1994",
+        "genres": [
+            "комедия",
+            "драма",
+            "мелодрама"
+        ],
+        "overview": "Сидя на автобусной остановке, Форрест Гамп — не очень умный, но добрый и открытый парень — рассказывает случайным встречным историю своей необыкновенной жизни. С самого малолетства парень страдал от заболевания ног, соседские мальчишки дразнили его, но в один прекрасный день Форрест открыл в себе невероятные способности к бегу. Подруга детства Дженни всегда его поддерживала и защищала, но вскоре дороги их разошлись.",
+        "poster_path": "/nsZyCXOubU9Eihvu0o9WwkF6x87.jpg",
+        "backdrop_path": "/ghgfzbEV7kbpbi1O8eIILKVXEA8.jpg",
+        "popularity": 25.9294,
+        "vote_average": 8.467,
+        "runtime": 142,
+        "director": "Роберт Земекис",
+        "cast": [
+            "Том Хэнкс",
+            "Робин Райт",
+            "Гэри Синиз",
+            "Sally Field",
+            "Mykelti Williamson"
+        ],
+        "keywords": [
+            "new year's eve",
+            "vietnam war",
+            "vietnam veteran",
+            "mentally disabled",
+            "friendship",
+            "usa president",
+            "washington dc, usa",
+            "post-traumatic stress disorder (ptsd)",
+            "waitress",
+            "based on novel or book",
+            "hippie",
+            "single parent",
+            "parent child relationship",
+            "optimism",
+            "1970s",
+            "drug addiction",
+            "autism",
+            "alabama",
+            "black panther party",
+            "bus stop",
+            "family relationships",
+            "chameleon",
+            "single mother",
+            "military",
+            "anti war protest",
+            "1960s",
+            "college american football",
+            "mother son relationship",
+            "america",
+            "feel-good"
+        ],
+        "frame_count": 30
+    },
+    "55": {
+        "id": 55,
+        "title": "Сука-любовь",
+        "original_title": "Amores perros",
+        "release_date": "2000-06-16",
+        "year": "2000",
+        "genres": [
+            "драма",
+            "триллер"
+        ],
+        "overview": "Мехико-Сити, фатальная авария. Сталкиваются три жизни, раскрывая предательскую сторону человеческой природы. Будоражащая и волнующая история об искуплении и об уязвимости и сложности человеческой жизни.",
+        "poster_path": "/22VFFKkhJCWasaYQ0SJCDSiFFk8.jpg",
+        "backdrop_path": "/tJTRLtdKPeVT8HORSbeHpdb8BKg.jpg",
+        "popularity": 6.8578,
+        "vote_average": 7.622,
+        "runtime": 154,
+        "director": "Alejandro González Iñárritu",
+        "cast": [
+            "Emilio Echevarría",
+            "Гаэль Гарсиа Берналь",
+            "Vanessa Bauche",
+            "Goya Toledo",
+            "Álvaro Guerrero"
+        ],
+        "keywords": [
+            "daughter",
+            "secret love",
+            "homeless person",
+            "mexico city, mexico",
+            "money",
+            "dog fighting",
+            "dog",
+            "nonlinear timeline",
+            "multiple storylines",
+            "new mexican cinema"
+        ],
+        "frame_count": 13
+    }
+}
